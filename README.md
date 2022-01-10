@@ -8,6 +8,13 @@ Bot that copies mod logs from twitch into discord.
 4. run `node index.js` or `node index.js path/to/config/file.json`
 5. Go to `https://discordapp.com/oauth2/authorize?client_id=`discord client ID`&scope=bot&permissions=3072` and add it to your discord server.
 
+## Docker Installation
+1. set up your `settings.json` file
+2. run `docker build . -t docker_modlogsbot`
+3. run `docker run --restart unless-stopped -d docker_modlogsbot`
+4. Go to `https://discordapp.com/oauth2/authorize?client_id=`discord client ID`&scope=bot&permissions=3072` and add it to your discord server.
+
+
 # Config file
 The config file is a JSON document that defines parameters for the bot and the channels it listens to. See settings.default.json for a template. By default, it has to be called `settings.json`
 
