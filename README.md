@@ -11,7 +11,7 @@ Bot that copies mod logs from twitch into discord.
 ## Docker Installation
 1. set up your `settings.json` file
 2. run `docker build . -t docker_modlogsbot`
-3. run `docker run --restart unless-stopped -d docker_modlogsbot`
+3. run `docker run --restart unless-stopped --name docker_modlogsbot -d docker_modlogsbot`
 4. Go to `https://discordapp.com/oauth2/authorize?client_id=`discord client ID`&scope=bot&permissions=3072` and add it to your discord server.
 
 
