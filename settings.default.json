@@ -16,7 +16,7 @@
             "users": ["moobot","nightbot","ohbot","hnlbot","streamlabs","streamelements","smokeybot","wizebot","rainmaker","fossabot"],
             "actions": ["timeout","ban"]
         },
-        "client_id": ""
+        "client_id": "" //If you don't have blank it
     },
     "listeners": [
         {
